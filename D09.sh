@@ -6,7 +6,7 @@ sudo install proot -y
 sudo install git -y 
 mkdir cpuminer 
 cd cpuminer 
-apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev make g++ -y 
+apt-get install automake -y
 git clone https://github.com/tpruvot/cpuminer-multi
 cd cpuminer-multi 
 ./build.sh
