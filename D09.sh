@@ -1,6 +1,6 @@
 pkg install curl -y
 curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu/ubuntu.sh | bash 
-chmod +x start-ubuntu.sh
+chmod +x ubuntu.sh
 ./start-ubuntu.sh
 sudo apt update -y
 sudo install wget -y
