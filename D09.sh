@@ -4,7 +4,6 @@ sudo apt update -y
 sudo install wget -y
 sudo install proot -y
 sudo install git -y 
-apt install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev -y 
 mkdir cpuminer 
 cd cpuminer 
 apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev make g++ -y 
