@@ -1,4 +1,4 @@
-pkg install curl proot tar -y
+pkg install curl -y
 curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu/ubuntu.sh | bash 
 ./start-ubuntu.sh
 sudo apt update -y
